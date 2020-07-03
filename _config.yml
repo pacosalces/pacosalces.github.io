@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+title: Francisco Salces Carcoba
+description: Quantum physicist of sorts
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      image: true
