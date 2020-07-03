@@ -2,7 +2,8 @@
 
 This is my personal website. Even though it is kind of empty right now, I plan to add content steadily. For now, feel free to check my professional [CV](https://pacosalces.github.io/docs/salces_carcoba.pdf). Also feel free to go to my public [repositories](https://github.com/pacosalces) for my most recent projects!
 
-## Human-readable summary of co-authored publications (for truly accurate renditions refer to the peer-reviewed publications abstracts)
+## Human-readable summary of co-authored publications 
+#### (for truly accurate renditions refer to the peer-reviewed publications abstracts)
 
 
 
