@@ -18,4 +18,4 @@ Comets have tails which grow especially large when they come closer to the sun. 
 # Support or Contact
 You should know where to find me if you made it up to here. If not, feel free to email me at pacosc@terpmail.umd.edu
 
-Clic aqui para [español](https://pacosalces.com/spanish.html)
+Clic aqui para [español](https://pacosalces.com/pages/welcome_es)
