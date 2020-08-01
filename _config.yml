@@ -5,6 +5,5 @@ description: Quantum physicist of sorts
 defaults:
   - scope:
       path: "docs"
-      path: "media"
     values:
       image: true
