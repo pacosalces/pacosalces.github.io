@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Francisco Salces Carcoba
+logo: media/pacoandrbchip
 description: Quantum physicist of sorts
 defaults:
   - scope:
