@@ -2,10 +2,12 @@
 
 This is my personal website. Even though it is kind of empty right now, I plan to add content steadily. For now, feel free to check my professional [CV](https://pacosalces.github.io/docs/salces_carcoba.pdf). Also feel free to go to my public [repositories](https://github.com/pacosalces) for my most recent projects!
 
-## Human-readable summary of co-authored publications 
-#### (for truly accurate renditions refer to the peer-reviewed publications abstracts)
+## Popular summaries of co-authored publications
+_Disclaimer: The summaries below do not account for the full technical picture rendered by a peer-reviewed publication. I suggest avoiding literal interpretations, and direct any curious reader to the actual paper contents for more accurate information._
 
-
+### "_Equations of state from individual one-dimensional Bose gases_" 
+#### (New Journal of Physics 20 (11), 113032)
+In this work, we study bosons in the one-dimensional (1D) regime, a regime in which dynamics are biased to happen only along one spatial dimension because there, bosons may start acting like fermions at very low densities. To achieve this, we start with an ultracold, three-dimensional (3D) Bose gas, e.g. a Rb-87 Bose--Einstein condensate (BEC) where three characteristic energy scales exist; 1) the thermal energy scale associated with the temperature of the gas, 2) the harmonic level energy spacing associated with our trap, and 3) the mean-field energy scale associated with the short-range interactions a single boson undergoes. In a trapped BEC in equilibrium, the thermal energy scale is often above the harmonic level spacing, but well below the trap depth and similar, and depending on the density, may exceed or not the mean-field energy. We freeze the 1D dynamics with an repulsive optical dipole trap (tweezer) shaped like a donut (LG-01 mode). The resulting trumpet-shaped potential squeezes atoms along two-dimensions, leaving only the longitudinal one free. Then, we determine the thermodynamic state of our 1D gas by taking images of the resulting density distributions. Because we know the shape of the trapping potential, we can connect the observed local density with a local chemical potential, and a global unknown temperature. Relating such state variables comprises an equation of state. We discover that loading the same 1D traps with warmer 3D gases results in colder 1D gases! Furthermore, by waiting for some time we see that the most energetic bosons leave the 1D trap, resulting in a net evaporative cooling. While the 1D temperature drops, the once degenerate bosons actually escape degeneracy! We speculate this is due to the inefficient chasing of the critical temperature in 1D vs 3D, where evaporative cooling results in an efficient approach trajectory to degeneracy.
 
 ### "_Second Chern number of a quantum-simulated non-Abelian Yang monopole_" 
 #### (Science 360 (6396), 1429-1434)
