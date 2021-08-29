@@ -1,11 +1,66 @@
-theme: jekyll-theme-minimal
+### Francisco Salces--Carcoba
+
 title: Francisco Salces Carcoba
-logo: /media/pacoandrbchip.png
-description: Quantum physicist of sorts
-show_downloads: false
+description: Quantum physicist of sorts | (he/his/him)
+
+baseurl: #name of GitHub repository
+url: http://localhost:4000
+email: pacosalces@gmail.com
+
+
+highlighter: rouge
+markdown: kramdown
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+# facebook: "#"
+# twitter: "#"
+linkedin: "francisco-salces-carcoba-45bb3486"
+github: "pacosalces"
+researchgate: "Francisco-Salces-Carcoba"
+orcid: "0000-0001-7049-4438"
+
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
 google_analytics: UA-174179197-1
-defaults:
-  - scope:
-      path: "docs"
-    values:
-      image: true
+
+#optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  # - jekyll-email-protect
+  # - jekyll-target-blank
