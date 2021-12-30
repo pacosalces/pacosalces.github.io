@@ -20,7 +20,10 @@
 
         <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
         <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-
+        {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
+        
     </head>
 
     <body>
