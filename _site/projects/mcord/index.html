@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/assets/css/main.css">
 
         <h1 class="post-headline">Francisco Salces Carcoba</h1>
-        <h3 class="post-description">Quantum physicist of sorts | (he/his/him)</h3>
+        <h3 class="post-description">Experimental quantum physicist of sorts | (he/his/him)</h3>
 
         <div class="links scroll">
         <a href="/">Home</a>
@@ -28,11 +28,11 @@
 <meta property="og:url" content="http://pacosalces.com/projects/mcord/" />
 <meta property="og:site_name" content="Francisco Salces Carcoba" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-08-29T17:19:19-07:00" />
+<meta property="article:published_time" content="2022-01-09T13:11:16-08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Defocused imaging" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Defocused imaging","dateModified":"2021-08-29T17:19:19-07:00","datePublished":"2021-08-29T17:19:19-07:00","description":"(Hardware-based regularization)","mainEntityOfPage":{"@type":"WebPage","@id":"http://pacosalces.com/projects/mcord/"},"url":"http://pacosalces.com/projects/mcord/","@context":"https://schema.org"}</script>
+{"description":"(Hardware-based regularization)","url":"http://pacosalces.com/projects/mcord/","headline":"Defocused imaging","dateModified":"2022-01-09T13:11:16-08:00","datePublished":"2022-01-09T13:11:16-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://pacosalces.com/projects/mcord/"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -45,27 +45,28 @@
 
         <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
         <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-
+        
+        
     </head>
 
     <body>
         <main>
             <article>
                 <h1 class="post-headline">Defocused imaging</h1>
-<p class="meta"><small>August 29, 2021</small></p>
+<p class="meta"><small>January 09, 2022</small></p>
 
 <p>A story on:
 <i style="color:Orange;"> Multiple-camera defocus imaging of ultracold atomic gases </i>
 (<a href="https://doi.org/10.1364/OE.422981" target="_blank">Optics Express Vol. 29, Issue 11, pp. 17029-17041 (2021)</a>)</p>
 
 <h3 id="background">Background</h3>
-<p>Coming soon…</p>
+<p>Imaging cold atomic gases can prove challenging depending on the method, but also on the requirement on signal-to-noise ratio (SNR) or spatial resolution. Microscopes comprising arrays of lenses, mirrors, and apertures are typically customized to perform this task. The ultimate SNR and spatial resolution are set by the largest numerical aperture closest to the atomic sample. Small errors in alignment of this optical systems can lead to aberrations, such as defocus, that act in detriment of the theoretically attainable resolutions. Nevertheless, optical systems are linear in nature and numerical inversion of the effects of a misaligned optic is possible. However, this inversion is not unique because more than one optical system may yield the same image of an object and the problem becomes ill-posed. This has to do with the optical field phase ambiguity, where after winding up by a certain amount, it becomes hard to unwrap its exact evolution through propagation. An intuitive example of this is in a defocused image; when you have a defocused image, you may not know if the lens needs to be pushed or pulled relative to an object in order to bring it to focus. Numerical inversion suffers from this ambiguous phase inversion only at certain spatial scales, and turns to regularization to “safely ignore” such scales at the cost of losing information.</p>
 
 <h3 id="experiment">Experiment</h3>
-<p>Coming soon…</p>
+<p>In this paper led by A. R. Perry, we try to implement a sort of hybrid regularization using both software and hardware. To do this, we prepare samples of ultracold clouds of atoms, and image them in and out of resonance not with one, but three different optical systems (not necessarily near focus). Because we characterize the SNR performance across different detunings from resonant absorption, we refer to the technique as “Multiple camera off-resonant defocused” (McORD) imaging. In the experiment a set of three images are taken simultaneously by three different paths at various detunings from resonance. This produces intensities proportional to atomic column densities with contrasting ring-patterns indicating the amount of defocus in the optical system as well as the detuning from resonance (which makes the cloud act like lens in itself). Then, loss of information in one of the contrast transfer functions (CTFs) can be “plugged” by the other two. In principle, this should improve the SNR, but because of the splitting into three imaging paths, a 3dB penalty is paid at each beamsplitter and the SNR is only nominally restored.</p>
 
 <h3 id="key-finding">Key finding</h3>
-<p>Seriously, coming soon…</p>
+<p>The heart of this paper is to demonstrate how hardware may be used to assist a regularized inversion of aberrated images with a minimal penalty on SNR.</p>
 
 
 <!-- Comments only for posts -->
@@ -76,10 +77,10 @@
 
         <footer>
           <p class="copy">
-            <small> &copy; Francisco Salces Carcoba 2021
+            <small> &copy; Francisco Salces Carcoba 2022
                     | Powered by Jekyll and
                     <a target="_blank" href="https://github.com/jitinnair1/gradfolio/">Gradfolio</a>.
-                    Last updated on 29 August 2021
+                    Last updated on 09 January 2022
             </small>
           </p>
 
@@ -113,11 +114,15 @@ target="_blank">
         </footer>
 
         <!-- Google Analytics Tracking code -->
-<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174179197-1"></script>
 <script>
-var galite = galite || {};
-galite.UA = '';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174179197-1');
 </script>
+
 
     </body>
 
