@@ -15,7 +15,7 @@ A few things you may want to check out are:
 
 * An updated copy of my [CV](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fpacosalces%2Fcv&target=salces_carcoba.tex&command=pdflatex&trackId=1582655956968).
 * A link to my public [repositories](https://github.com/pacosalces) for detail on pet projects.
-* A set of (hopefully) accessible science summaries of previous work in [projects](https://pacosalces.com/projects/) section.
+* A set of (hopefully) down-to-earth science summaries of contributed work in [projects](https://pacosalces.com/projects/) section.
 * An overview of ongoing research in [blog](https://pacosalces.com/blog/) posts. 
 * Contact information can be found at the bottom of this page.
 
