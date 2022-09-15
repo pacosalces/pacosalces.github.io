@@ -26,6 +26,6 @@ A few things you may want to check out are:
 
 <p style="color:LightCoral;"> I am currently the Barish-Weiss postdoctoral fellow in <a href="https://caltechexperimentalgravity.github.io/">Rana X. Adhikari's experimental gravity</a> group in Caltech. I am collaborating with Mariner; a 40-meter prototype of next-generation cryogenic gravitational wave detectors, where I am focused in low-noise lasers in the short wave infrarred band (~ 2 um) and their downstream adaptation for experimental gravity. </p>
 
-<p style="color:forestgreen;">  I am broadly interested in combining advanced interferometric techniques in quantum and classical systems to advance fundamental physics; including light, gravity, or matter waves. </p>
+<p style="color:forestgreen;">  I am interested in combining advanced interferometric techniques in quantum and classical systems to advance fundamental physics; including light, gravitational, and matter waves. </p>
 
-<p style="color:darkorange;"> I am an open source software and hardware enthusiast, microscopy, and optics hobbyist, and applied physics afficionado. If you know a wave I don't know, let me know and let's build an interferometer!</p>
+<p style="color:darkorange;"> I am an open source software and hardware enthusiast, microscopy, and optics hobbyist, and applied physics afficionado.</p>
